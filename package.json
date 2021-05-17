@@ -1,0 +1,16 @@
+{
+  "name": "ekstrakt",
+  "version": "0.1.0",
+  "description": "Extract things from strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ava --verbose --serial --watch"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "emoji-regex": "^9.2.2"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
+  }
+}

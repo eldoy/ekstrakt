@@ -4,13 +4,10 @@
   "description": "Extract things from strings",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test ava --verbose --serial --watch"
+    "test": "nodemon -q --exec spekk"
   },
   "license": "ISC",
   "dependencies": {
     "emoji-regex": "^9.2.2"
-  },
-  "devDependencies": {
-    "ava": "^3.15.0"
   }
 }
